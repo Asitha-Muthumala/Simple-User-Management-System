@@ -25,7 +25,9 @@ git clone https://github.com/your-username/simple-user-management-system.git
 Create a new database named userdb.
 Import the SQL file database.sql located in the project's root directory.
 
-### 
+### Credentials
+- Email: anushka@gmail.com
+- Password: 1234
 
 ### Contact
 If you have any questions, suggestions, or feedback, feel free to reach out to me at akmuthumala@gmail.com or connect with me on LinkedIn: Asitha Muthumala.
