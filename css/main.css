@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.login {
+    width: 350px;
+    margin: 100px auto;
+    height: auto;
+}
+
+p.error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+p.info {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    position: inherit;
+}
+
+header {
+    background-color: #eee;
+    overflow: auto;
+    padding: 10px;
+}
+
+header .appname {
+    float: left;
+}
+
+header .loggedin {
+    float: right;
+}
+
+main {
+    width: 100%;
+}
+
+.header-div {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-div h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.header-div h1 span {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.table-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table.masterlist {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+table.masterlist th {
+    background-color: #aaa;
+    text-align: left;
+}
+
+table.masterlist td {
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+}
